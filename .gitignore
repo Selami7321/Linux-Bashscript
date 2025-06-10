@@ -1,13 +1,63 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Windows sistem dosyaları
+AppData/
+AppData/**/*
+AppData/Local/
+AppData/Local/**/*
+AppData/Local/D3DSCache/
+AppData/Local/D3DSCache/**/*
 
-pkg/
-src/
+# VS Code
+.vscode/
+.vscode/**/*
+.vscode/extensions/
+.vscode/extensions/**/*
+
+# Sistem dosyaları
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Geçici dosyalar
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE/Editör dosyaları
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Derleme çıktıları
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Bağımlılık dizinleri
+node_modules/
+vendor/
+bower_components/
+
+# Log dosyaları
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Veritabanı dosyaları
+*.sqlite
+*.db
+
+# Sıkıştırılmış dosyalar
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Diğer
+.DS_Store
+.env
+.env.local
+.env.*.local 
